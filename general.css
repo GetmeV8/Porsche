@@ -1,0 +1,235 @@
+body{
+   padding: 0;
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+   
+}
+.name{
+  padding-bottom: 40px;
+}
+.cars{
+margin: 0;
+padding: 0%;
+width: 100%;
+height: 90vh;
+background-image: url("icons/porsche-normal.jpg.webp");
+background-size: cover;
+background-repeat: no-repeat;
+}
+h1{
+  padding-top: 400px;
+  padding-left: 80px;
+  color: white;
+  font-weight: 400;
+  font-size: 60px;
+  font-style:bold;
+}
+h2{
+  padding-top: 1px;
+  padding-left: 80px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 50x;
+  font-style:bold;
+}
+.cursor{
+  cursor: pointer;
+}
+.cursor:hover{
+  color: rgb(185, 3, 3);
+}
+.models-header{
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 40px;
+}
+.flex{
+  height: 300px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+}
+.cayman{
+  margin: 0;
+  padding: 0%;
+  width: 100%;
+  height: 90vh;
+  background-image: url("icons/718gr.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.carrera{
+  margin: 0;
+  padding: 0%;
+  width: 100%;
+  height: 90vh;
+  background-image: url("icons/911gr.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+ 
+}
+.taycan{
+  margin: 0;
+  padding: 0%;
+  width: 100%;
+  height: 90vh;
+  background-image: url("icons/taycangr.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.panamera{
+  margin: 0;
+  padding: 0%;
+  width: 100%;
+  height: 90vh;
+  background-image: url("icons/panameragr.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.macan{
+  margin: 0;
+  padding: 0%;
+  width: 100%;
+  height: 90vh;
+  background-image: url("icons/macangrr.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.cayenne{
+  margin: 0;
+  padding: 0%;
+  width: 100%;
+  height: 90vh;
+  background-image: url("icons/cayennegr.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.price{
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 29px;
+  color: rgb(255, 255, 255);
+}
+.near{
+  margin-top: 80px;
+  margin-left: 80px;
+  font-size: 40px;
+  color: black;
+}
+.models{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.models-inner{
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.image-1{
+width: 100%;
+}
+.Find{
+font-size: 30px;
+margin-left: 120px;
+border: 1px solid black;
+}
+.Discover{
+margin: 50px;
+margin-left: 70px;
+
+font-size: 43px;
+}
+.discover-flex{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-names{
+  display: flex;
+  flex-direction: column;  
+  font-size: 20px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 400;
+}
+.build{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+.Footers{
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  }
+  ul{
+    gap: 10px;
+    list-style: none;
+  }
+  li{
+    margin: 20px;
+  }
+  .share{
+    display: grid;
+    width: 100%;
+    justify-content: end;
+  }
+  .share-page{
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 400;
+    margin-right: 140px;
+    border: 4px solid rgb(37, 33, 33);
+    background-color: rgb(37, 33, 33);
+  }
+  .share-icon{
+    margin-left: 38px;
+    height: 19px;
+    width: 19px;
+  }
+  a{
+    margin-right: 110px;
+    margin-top: 30px;
+    color: rgb(104, 104, 103);
+  }
+  .Medias{
+  margin-top: 20px;
+  margin-left: 10px;
+  }
+  .icon-media{
+  height: 30px;
+  width: 30px;
+  }
+  .final-footer{
+    background-color: rgb(39, 39, 39);
+    height: 400px;
+  }
+  .bottom-border{
+    height: 120px;
+    border-bottom: 0.1px solid rgb(104, 103, 103);
+  }
+  .region{
+    margin-left: 60px;
+    font-size: 30px;
+  }
+  .select{
+    border: 2px solid rgb(85, 85, 85);
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight:300;
+  }
+  .india{
+    font-size: 16px;
+    margin-left: 60px;
+    color: rgb(208, 209, 209);
+  }
